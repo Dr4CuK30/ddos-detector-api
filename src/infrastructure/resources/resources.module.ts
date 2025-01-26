@@ -1,8 +1,9 @@
 import { Module } from '@nestjs/common';
 import { OllamaResource } from './ollama.resource';
+import { FilesResource } from './files.resource';
 
 @Module({
-  providers: [OllamaResource],
-  exports: [OllamaResource],
+  providers: [OllamaResource, FilesResource],
+  exports: [OllamaResource, FilesResource],
 })
 export class ResourcesModule {}

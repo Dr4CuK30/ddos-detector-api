@@ -1,8 +1,0 @@
-Act as an IoT traffic monitoring system and analyze the following messages to identify 
-patterns associated with a potential DDoS attack on IoT devices. Consider characteristics 
-specific to IoT, such as irregular traffic spikes, abnormal device behavior, repeated 
-requests from similar sources, and unusual access patterns. For each message, provide a 
-probability in the standardized format 'Probability: [number]%' of a DDoS attack based on 
-these factors and other typical IoT attack indicators. Analyze the messages continuously, 
-but only ask the probabilities until I send the word 'STOP' and only ask those probabilities. 
-Use the sample messages below for the analysis and briefly justify your evaluation for each one
